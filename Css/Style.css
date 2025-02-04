@@ -1,0 +1,101 @@
+body {
+  background-color: #111723;
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  color: white;
+  font-size: 15px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  border-radius: 15px;
+  background-color: #002FDA;
+}
+
+.navbar .logo a {
+  text-decoration: none;
+  text-transform: uppercase;
+  font-weight: bolder;
+}
+
+.navbar .logo a:hover {
+  color: yellow;
+}
+
+.navbar a,
+.navbarPages a {
+  color: white;
+}
+
+.navbarPages ul {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.navbarPages ul li {
+  list-style: none;
+  margin: 0px 10px;
+}
+
+.navbarPages ul li a {
+  text-decoration: none;
+}
+
+.navbarPages ul li a:hover {
+  color: yellow;
+  border-bottom: 1px solid yellow;
+  padding-bottom: 5px;
+}
+
+.Language {
+  border: 1px solid white;
+  border-radius: 15px;
+  cursor: pointer;
+  padding: 5px;
+}
+
+.Language:hover {
+  color: yellow;
+  border: 1px solid yellow;
+}
+
+.engLang {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.Language .engLang p {
+  margin: 3px;
+}
+
+.engLang .fa-caret-down {
+  margin: 5px;
+}
+
+.Language ul {
+  position: absolute;
+  flex-direction: column;
+  top: 10%;
+  display: block;
+}
+
+.Language ul li {
+  list-style: none;
+}
+
+.Language .langDropdown li {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 5px;
+}
+
+.Language .langDropdown li p {
+  margin: 5px;
+}
