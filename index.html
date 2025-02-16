@@ -2,45 +2,62 @@
 <html lang="en">
 
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Muhammad Abubakkar - Portfolio</title>
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
-  <link rel="stylesheet" href="/Css/Style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Muhammad Abubakkar - Portfolio</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+    <link rel="stylesheet" href="/Css/Style.css">
 </head>
 
 <body>
-  <!-- Navigation Bar -->
-  <Nav class="navbar">
+    <!-- Navigation Bar -->
 
-    <div class="logo">
-      <a href="index.html">Abubakkar Praew</a>
+    <header>
+        <Nav class="navbar">
+            <div class="menu-toggle">
+                <i class="fa-solid fa-toggle-off"></i>
+            </div>
+
+            <div class="logo">
+                <a href="index.html">Abubakkar Praew</a>
+            </div>
+
+            <div class="navbarPages">
+                <ul>
+                    <li><a href="#" onclick="maintenance ()">Services</a></li>
+                    <li><a href="#" onclick="maintenance ()">Portfolio</a></li>
+                    <li><a href="#" onclick="maintenance ()">Projects</a></li>
+                    <li><a href="#" onclick="maintenance ()">Contact Me</a></li>
+                </ul>
+            </div>
+
+            <!-- Second Language Bar -->
+            <div class="language">
+                <ul>
+                    <li class="mainLang">English</li>
+                    <ul class="langDropdown">
+                        <li>English</li>
+                        <li>Thai</li>
+                        <li>Urdu</li>
+                        <li>French</li>
+                        <li>Spanish</li>
+                        <li>Russian</li>
+                        <li>Japanese</li>
+                        <li>Korean</li>
+                    </ul>
+                </ul>
+            </div>
+        </Nav>
+    </header>
+
+    <!-- General Loading -->
+    <div id="loadingOverlay">
+        <div class="loader"></div>
     </div>
 
-    <div class="navbarPages">
-      <ul>
-        <li><a href="#">Services</a></li>
-        <li><a href="#">Portfolio</a></li>
-        <li><a href="#">Projects</a></li>
-        <li><a href="#">Contact Me</a></li>
-      </ul>
-    </div>
-
-    <!-- ul -->
-    <ul class="Language">
-      <li class="engLang" onclick="langToggle()">
-        <p>Eng</p>
-        <i class="fa-solid fa-globe"></i>
-        <i class="fa-solid fa-caret-down"></i>
-      </li>
-
-    </ul>
-    </div>
-
-  </Nav>
 
 
-  <script src="Script/Script.js"></script>
+    <script src="Script/Script.js"></script>
 </body>
 
 </html>
